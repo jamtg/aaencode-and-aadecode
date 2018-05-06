@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Japanese style emoticons</title>
+	<style>
+		button {
+		padding: 6px 8px;
+		line-height: 17px;
+		border-radius: 0;
+		}
+
+	</style>
+  </head>
+  <body>
+	<h1>aaencode/aadecode</h1>
+	<h4>AAEncoder/AADecoder for any JavaScript program to/from Japanese style emoticons</h4>
+	<div>
+		<textarea id="t" placeholder="Enter JavaScript source or emoticons" style="width:50%;height:20em;line-height:130%;" ></textarea>
+		<p>
+		<button id="e" onclick="document.getElementById('t').value=aaencode(document.getElementById('t').value)">aaencode</button>
+		<button id="d" onclick="document.getElementById('t').value=aadecode(document.getElementById('t').value)">aadecode</button>
+		<button id="c"onclick="document.getElementById('t').value=''">clear</button>
+		</p>
+	</div>
+	<footer>
+	some code from <a target="_blank" href="http://utf-8.jp/public/aaencode.html">utf-8.jp</a>
+	<p>Post by <a target="_blank" href="https://github.com/jamtg">jamtg</a></p>
+	</footer>
+	<script src="./aaencode.js"></script>
+	<script src="./aadecode.js"></script>
+  </body>
+</html>
