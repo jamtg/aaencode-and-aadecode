@@ -1,5 +1,6 @@
 # aaencode-and-aadecode
 AAEncoder/AADecoder for any JavaScript program to/from Japanese style emotico
+
 E.g:
 
 input:alert("Hello, JavaScript")
